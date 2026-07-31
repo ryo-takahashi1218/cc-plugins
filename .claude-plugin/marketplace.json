@@ -1,0 +1,13 @@
+{
+  "name": "cc-plugins",
+  "owner": {
+    "name": "ryo-takahashi1218"
+  },
+  "plugins": [
+    {
+      "name": "loop-eng",
+      "source": "./loop-eng",
+      "description": "検証付きの自律ループでコードを作る・直す進め方一式(スキル・コマンド・エージェント・workflow)を配布するプラグイン"
+    }
+  ]
+}
