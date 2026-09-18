@@ -1,0 +1,15 @@
+{
+  "description": "coding-loop の進め方（委譲・選択式の質問・メモリの使い分け）を毎セッションに載せる",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks-handlers/session-start.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
