@@ -5,9 +5,14 @@
   },
   "plugins": [
     {
+      "name": "coding-loop",
+      "source": "./coding-loop",
+      "description": "コードを書く・直す依頼で自動で使われる進め方。強さ A/B/C、Scenario→合格条件→赤→緑→レビュー→完了判定、記録 1 行。スキル 1 本と作業役 1 体の軽い構成"
+    },
+    {
       "name": "loop-eng",
       "source": "./loop-eng",
-      "description": "検証付きの自律ループでコードを作る・直す進め方一式(スキル・コマンド・エージェント・workflow)を配布するプラグイン"
+      "description": "非推奨（coding-loop に移行）。検証付きの自律ループでコードを作る・直す進め方一式(スキル・コマンド・エージェント・workflow)を配布するプラグイン"
     }
   ]
 }
